@@ -1,7 +1,7 @@
 'use strict'
 
-var hasHover = require('./')
+var hasPassiveEvents = require('./')
 
-console.log(hasHover)
+console.log(hasPassiveEvents)
 
-if (!process.browser && hasHover) throw Error('Node should not have hover')
+if (!process.browser && hasPassiveEvents) throw Error('Node should not have hover')
